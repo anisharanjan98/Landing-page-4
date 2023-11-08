@@ -1,0 +1,159 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;  
+}
+section{
+    min-height: 100vh;
+    background-image: url("../image/hospital.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter:blur(30px);
+}
+.logo {
+    background: url('logo.jpg');
+    width:100px;
+    height: 100px;
+}
+.container{
+    width:99%;
+    margin:auto;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+}
+
+nav{
+    height: 100px;
+}
+nav h1{
+    float: left;
+    line-height: 100px;
+    font-size: 80px;
+    font-size: large;
+    color:#000000;
+}
+nav ul{
+    float:right;
+    line-height: 0px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 1px 25px;
+    font-size: 18px;
+}
+nav ul li a{
+    color:#000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 10px 10px;
+    font-size: 22px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+nav ul li a:hover{
+    background-color: #F5F5F5;
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color: #F5F5F5;
+}
+.article{
+    width:100%;
+    margin:auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.article p{
+    font-size: 30px;
+    color:#F61313;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.article h1{
+    font-size: 60px;
+    color:#000000;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.article .btn{
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15048;
+    margin-bottom: 100px;
+}
+.article .btn:hover{
+    background-color:#348781;
+    transition: 0.5s ease;
+}
+.service__header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.service__header__content p {
+    max-width:300px;
+    color: var(--text-light);
+}
+.service__grid{
+    margin-top: 15rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.service__card {
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.service__card span{
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 10px 20px;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    background-color: var(--primary-color-dark);
+    border-radius: 100%;
+    transition: 0.3s;
+}
+.service__card h4{
+    margin-bottom: 2.1rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--text-dark);
+}
+.service__card p{
+    margin-bottom: 4rem;
+    font-size: large;
+    color: var(--text-light);
+}
+.service__card a{
+    color: #f15048;
+}
+.service__card a:hover{
+    color: #348781;
+}
+.service__card:hover span{
+    color: maroon;
+}
+.footer{
+    margin-top:0px;
+    width: 100%;
+    padding: 1px 5%;
+    background: #333;
+    color: #fff;
+    display:inline-block;
+}
+.footer div{
+    text-align:center;
+}
